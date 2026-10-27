@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data (download separately)
+data/
+datasets/
+*_augmented/
+Potato_150*/
+PlantVillage/
+
+# Model weights / checkpoints (large; share via Releases or Drive)
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
